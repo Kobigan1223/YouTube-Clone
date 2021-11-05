@@ -81,6 +81,16 @@ body{
 }
 
 .youtubeHeaderAvatarIcon{
+	border-radius:200px;
 	height:35px;
+	
+}
+.youtubeBottomSection{
+    display:flex;
+	flex-direction:row;
+}
+.youtubeSidebar{
+	margin-top:50px;
+	display:flex;
 	
 }
