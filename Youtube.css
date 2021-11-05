@@ -46,7 +46,7 @@ body{
 	font-size:17px;
 
 }
-.youtubeHeaderIcons{
+.searchIconHeader{
 	padding:8px;
 	border:1px solid grey;
 	background-color:#f8f8f8;
@@ -77,5 +77,10 @@ body{
 
 .avatar {
 	border-radius:200px;
+	
+}
+
+.youtubeHeaderAvatarIcon{
 	height:35px;
+	
 }
