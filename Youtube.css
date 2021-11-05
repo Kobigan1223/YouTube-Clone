@@ -25,3 +25,45 @@ body{
 	cursor:pointer;
 	
 }
+.youtubeSearchBar{
+    display:flex;
+	flex-direction:row;
+	justify-content:center;
+
+}
+.youtubeHeaderSearchInput{
+	outline:none;
+	padding:4px;
+	width:30em;
+	font-size:17px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+.youtubeHeaderSearchInput:;-webkit-input-placeholder{
+	font-size:17px;
+
+}
+.youtubeHeaderIcons{
+	padding:8px;
+	border:1px solid grey;
+	background-color:#f8f8f8;
+	padding-right:25px;
+	padding-left:25px;
+	outline:none;
+	cursor:pointer;
+}
+.searchHeaderIcons{
+	color:#606060;
+	font-size:15px;
+
+}
+.youtubeHeaderIcons{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+
+}
