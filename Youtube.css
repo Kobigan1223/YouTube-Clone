@@ -16,4 +16,11 @@ body{
 	
 }
 
-.youtube
+.youtubeLogo{
+	height:29px;
+	margin:7px;
+	margin-top:10px;
+	margin-left:10px;
+	cursor:pointer;
+	
+}
