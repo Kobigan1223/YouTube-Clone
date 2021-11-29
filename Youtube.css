@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 body{
 	
 	background-color:#f9f9f9;
@@ -92,5 +94,46 @@ body{
 .youtubeSidebar{
 	margin-top:50px;
 	display:flex;
+	flex-direction:column;
+	background-color:white;
+	width:250px;
+	height:100vh;
+	position:fixed;
+	left:0;
+	
+	
+}
+.youtubeSidebarField{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	width:100%;
+    margin:5px;
+	cursor:pointer;
+}
+.youtubeSidebarField:hover{
+   background-color:#e5e5e5ab;
+   
+}
+.youtubeSidebarField i{
+   font-size:15px;
+   color:#606060;
+   margin:10px;
+   margin-right:25px;
+   margin-left:20px;
+   
+}
+
+.youtubeSidebarField h1{
+	font-size:15px;
+	font-family:'Roboto';
+    font-weight:500;	
+}
+.youtubeSidebar_hr{
+	height:1px;
+	border-top:1px solid rgba(128,128,128,0.397);
+	width:100%;
+	margin:10px;
+	
 	
 }
